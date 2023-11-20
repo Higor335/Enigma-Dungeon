@@ -54,5 +54,6 @@ Material:
     m_Ints: []
     m_Floats:
     - _GlossMapScale: 0.225
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
