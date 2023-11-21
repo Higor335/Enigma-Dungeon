@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ItensDoJogo.unity
+    guid: d94955b502f533145a097d0bc01690b3
   m_configObjects: {}
