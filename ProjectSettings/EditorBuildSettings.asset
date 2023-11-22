@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ItensDoJogo.unity
+    path: Assets/Scenes/MenuPrincipal.unity
+    guid: 2cc961743d843aa458939c861ccd7b57
+  - enabled: 1
+    path: Assets/Scenes/Mapa1.unity
     guid: d94955b502f533145a097d0bc01690b3
   - enabled: 1
     path: Assets/Scenes/Mapa2.unity

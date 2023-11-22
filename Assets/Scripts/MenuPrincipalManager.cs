@@ -27,7 +27,7 @@ public class MenuPrincipalManager : MonoBehaviour
     {
         //Screen.SetResolution(1308, 669, true);
         //Inimigo.pontuacao = 0; // Reseta Pontuação
-        SceneManager.LoadScene(nomeDoLevelDeJogo);
+        SceneManager.LoadScene(1);
     }
 
     public void SelecionarDificuldade(Button button) // Verifica a dificuldade de acordo com o botão escolhido
@@ -46,7 +46,7 @@ public class MenuPrincipalManager : MonoBehaviour
                 Debug.Log(dificuldade);
                 Jogar();  // chama a função jogar()
                 break;
-            case "btHarcore":
+            case "btHardcore":
                 dificuldade = "hardcore"; // Atualiza a String dificuldade para "dificil"
                 Debug.Log(dificuldade);
                 Jogar(); // chama a função jogar()
