@@ -21,6 +21,8 @@ public class MenuPrincipalManager : MonoBehaviour
         // Listener dos botões
         btNormal.onClick.AddListener(() => SelecionarDificuldade(btNormal));
         btHardcore.onClick.AddListener(() => SelecionarDificuldade(btHardcore));
+        Cursor.visible = true;
+        Screen.lockCursor = false;
     }
 
     public void Jogar()
