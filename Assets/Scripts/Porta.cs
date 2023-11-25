@@ -20,6 +20,7 @@ public class Porta : MonoBehaviour
 
     void Start()
     {
+
         SomAbrindo = gameObject.AddComponent<AudioSource>();
         SomAbrindo.clip = PortaAbrindo;
 
@@ -29,6 +30,7 @@ public class Porta : MonoBehaviour
         // Armazena os valores iniciais
         posicaoFechada = transform.position;
         rotacaoFechada = transform.eulerAngles;
+        
     }
 
     void Update()

@@ -6,6 +6,10 @@ public class PlacaDePressao : MonoBehaviour{
 
     private static int placasAtivadas = 0;
 
+    void Start(){
+        placasAtivadas = 0;
+        GlobalVariables.checaPortaAtiva = false;
+    }
 
     private void OnTriggerEnter(Collider other){
         placasAtivadas++;
